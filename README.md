@@ -1,22 +1,48 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Notiva
->>>>>>> 453d68062d5b0b813c8f406699505ff24dbeefaa
-=======
 # Notiva
 
 Fast, beautiful, and private markdown note-taking in your browser.
->>>>>>> 159809386c04e866852d69257b365d53ad0669fc
+
+![Notiva Logo](public/notiva.png)
+
+## Features
+
+- ✍️ **Write in Markdown** — Enjoy distraction-free writing with full Markdown support.
+- 👀 **Live Preview** — Instantly see your formatted notes as you type.
+- 🌙 **Dark/Light Mode** — Switch themes for day or night.
+- 💾 **Auto-save** — Notes are saved automatically in your browser (localStorage).
+- 📄 **Multiple Notes** — Create, rename, and delete as many notes as you want.
+- ⬇️ **Download** — Export your notes as `.md` files.
+- 🔒 **Privacy First** — Your notes never leave your device.
+
+
+### Installation
+
+Clone the repository:
+
+```sh
+git clone https://github.com/ishwari03/Notiva.git
+cd Notiva
+```
+
+
+## Usage
+
+- Create a note: Click "+ New Note" in the sidebar.
+- Rename: Double-click a note title.
+- Delete: Click the 🗑️ icon next to a note.
+- Download: Click the download icon in the navbar.
+- Switch theme: Use the sun/moon toggle.
+- Help: Click the info icon for usage tips.
+
+  
+## Tech Stack
+
+- React
+- Vite
+- marked (Markdown parser)
+- react-icons
+
+
+License
+MIT
+
